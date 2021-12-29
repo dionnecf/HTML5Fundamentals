@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML Cheet Sheet</title>
+        <title>HTML5 Fundamentals</title>
     </head>
     <body>
+        <h1>HTML 5 Fundamentals</h1>
         <!-- Different types of Headings -->
-        <h1>Heading One</h1>
-        <h2>Heading Two</h2>
-        <h3>Heading Three</h3>
-        <h4>Heading Four</h4>
-        <h5>Heading Five</h5>
-        <h6>Heading Six</h6>
+        <br>
+        <h3>Headings</h3>
+        <h1>H1  &lt;h1&gt;&lt/h1&gt;</h1>
+        <h2>H2  &lt;h2&gt;&lt;/h2&gt;</h2>
+        <h3>H3 &lt;h3&gt;&lt;/h3&gt;</h3>
+        <h4>H4 &lt;h4&gt;&lt;/h4&gt;</h4>
+        <h5>H5 &lt;h5&gt;&lt;/h5&gt;</h5>
+        <h6>H6 &lt;h6&gt;&lt;/h6&gt;</h6>
 
         <!-- Paragraphs -->
-
+        <br>
+        <h3>Paragraphs 
+            <br>
+            &lt;p&gt;&lt;/p&gt;</h3>
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             <strong>Culpa possimus</strong>, voluptas error consectetur unde corrupti 
@@ -45,8 +51,32 @@
             illum ullam ipsam ea sed vel fugiat mollitia non labore, porro excepturi magnam velit in 
             voluptatum illo architecto atque quam. Cumque est accusamus at sit quaerat illum nisi eum quos?
         </p>
-
+        <br>
+        <h3>Inline Elements</h3>
+       
+        <p>
+            <strong>&lt;strong&gt;&lt;/strong&gt;</strong> -  Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            <strong>Culpa possimus</strong>
+            <br>
+            <br>
+            <strong><em>&lt;em&gt;&lt;/em&gt;</em></strong> - <em>Eligendi velit vero provident 
+                repudiandae ea nisi</em>, laboriosam quisquam alias
+            <br>
+            <br>
+            <strong>&lt;a href=""&gt;&lt;/a&gt;</strong> -  <a href="https://google.com" target="_blank">Sequi fuga maiores</a> eaque repellat et explicabo eveniet illo ea exercitationem velit. Iste rerum ipsam facere nihil! 
+        
+        </p>
+        <br>
         <!-- Lists -->
+        <h3>Unordered List
+            <br>
+            <br>
+            &lt;ul&gt;
+            <br>
+            &lt;li&gt;list item&lt;/li&gt;
+            <br>
+            &lt;/ul&gt;
+        </h3>
         <ul>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -54,14 +84,27 @@
             <li>Item 4</li>
         </ul>
 
+        <br>
+        <h3>Ordered list
+            <br>
+            <br>
+            &lt;ol&gt;
+            <br>
+            &lt;li&gt;list item&lt;/li&gt;
+            <br>
+            &lt;/ol&gt;
+        </h3>
         <ol>
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
             <li>Item 4</li>
         </ol>
-
+  
+        <br>
         <!-- Table stuff-->
+        <h3>Table &lt;table&gt;&lt;/table&gt;</h3>
+
         <table>
             <thead>
                 <tr>
@@ -93,28 +136,40 @@
         <hr>
         <br>
 
-
         <!-- Form stuff -->
+        <h3>Form Stuff
+        &lt;form&gt;&lt;/form&gt;</h3>
+        <br>
+        
         <form actin="process.php" method="POST">
             <div>
                 <label>First Name</label>
-                <input type="text" name="firstName" placeholder="Enter first name">
+                <input type="text" name="firstName" placeholder="Enter first name"> 
+                - &lt;label&gt;&lt;/label&gt;
+                &lt;input type="text" name="firstName" placeholder="Enter first name"&gt;
             </div>
             <br>
             <div>
                 <label>Last Name</label>
                 <input type="text" name="lastName">
+                - &lt;label&gt;Last Name&lt;/label&gt;
+                &lt;input type="text" name="lastName"&gt;
             </div>
             <br>
             <div>
                 <label>Email</label>
                 <input type="email" name="email">
+                - &lt;label&gt;Email&lt;/label&gt;
+                &lt;input type="email" name="email"&gt;
             </div>
             <br>
             <div>
                 <label>Message</label>
                 <textarea name="message"></textarea>
+                - &lt;label&gt;Message&lt;/label&gt;
+                &lt;textarea name="message"&gt;&lt;/textarea&gt;
             </div>
+            <br>
             <div>
                 <label>Gender</label>
                 <select name="gender">
@@ -122,32 +177,97 @@
                     <option value="female">Female</option>
                     <option value="Other">Other</option>
                 </select>
+                - &lt;label&gt;Gender&lt;/label&gt;
+                &lt;select name="gender"&gt;
+                &lt;option value="male"&gt;Male&lt;/option&gt;
+                &lt;/select&gt;
             </div>
             <br>
             <div>
                 <label>Age</label>
                 <input type="number" name="age" value="30">
+                - &lt;label&gt;Age&lt;/label&gt;
+                &lt;input type="number" name="age" value="30"&gt;
             </div>
             <br>
             <div>
                 <label>Birthday</label>
                 <input type="date" name="birthday">
+                - &lt;label&gt;Birthday&lt;/label&gt;
+                &lt;input type="date" name="birthday"&gt;
+            </div>
+            <br>
+            <div>
+                <Label>Password</Label>
+                <input type="password" name="password">
+                - &lt;label&gt;Password&lt;/label&gt;
+                &lt;input type="password" name="password"&gt;
+            </div>
+            <br>
+            <div>
+                <label>Favourite Colour</label>
+                <input type="color" name="favourite_colour">
+                - &lt;label&gt;Favourite Colour&lt;/label&gt;
+                &lt;input type="color" name="favourite_colour"&gt;
+            </div>
+            <br>
+            <div>
+                <label>Do you do exercise?</label>
+                <input type="radio" name="exercise" value="no">No
+                <input type="radio" name="exercise" value="yes">Yes
+                - &lt;label&gt;Do you do exercise?&lt;/label&gt;
+                &lt;input type="radio" name="exercise" value="no"&gt;
+                &lt;input type="radio" name="exercise" value="yes"&gt;
+            </div>
+            <br>
+            <div>
+                <label>What are your favourite activities?</label> - &lt;label&gt;What are your favorite activities?&lt;/label&gt;
+                <br>
+                <input type="checkbox" name="activities" value="walking">Walking
+                - &lt;input type="checkbox" name="activities" value="walking"&gt;
+                <br>
+                <input type="checkbox" name="activities" value="running">Running
+                - &lt;input type="checkbox" name="activities" value="running"&gt;
+                <br>
+                <input type="checkbox" name="activities" value="cycling">Cycling
+                - &lt;input type="checkbox" name="activities" value="cycling"&gt;
+                <br>
+            </div>
+            <br>
+            <div>
+                <label>Upload your profile photo</label>
+                <input type="file" name="profile_photo">
+                - &lt;label&gt;Upload your profile photo&lt;/label&gt;
+                &lt;input type="file" name="profile_photo"&gt;
             </div>
             <br>
             <input type="submit" name="submit" value="Submit">
+            - &lt;input type="submit" name="submit" value="Submit"&gt;
         </form>
-
+        <br>
         <!-- Independent Buttons -->
-        <button>Click Me</button>
+        <button>Click Me</button> &lt;button&gt;Click Me&lt;/button&gt;
         <br>   
         <br>     
         <!-- Images -->
+        <h3>Images </h3>
+            <p>
+           <strong>&lt;img scr="sample.jpg"&gt;</strong> - Static image
+            <br>
+            <strong>&lt;a href="sample.jpg"&gt;&lt;img scr="sample.jpg"&gt;&lt;/a&gt;</strong> - Image with link wrapped around it
+            </p>
         <a href="images/sample1-small.jpg">
             <img src="images/sample1-small.jpg" 
             alt="Remote Laptop Lifestyle" width="400">
         </a>
-
+        <br>
         <!-- Quotations -->
+        <h3>Quotations
+            <br>
+            &lt;blockquote&gt;&lt;/blockquote&gt;
+        </h3>
+
+
         <blockquote cite="http://dionnecondr-farrell.com">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
             Placeat nulla, beatae labore quos nobis nesciunt accusantium 
@@ -162,8 +282,18 @@
             dicta animi sequi assumenda rem nam similique asperiores eaque 
             optio velit eius nobis earum aliquid voluptatum ipsa ex?
         </blockquote>
+
+        <h3>Abbreviations
+            <br>
+            &lt;abbr&gt;&lt;/abbr&gt;
+        </h3>
+
         <p>The <abbr title="World Wide Web">WWW</abbr> is fantastic</p>
 
+        <h3>Citation
+            <br>
+            &lt;cite&gt;&lt;/cite&gt;
+        </h3>
         <p><cite>HTML5 Fundamentals by Dionne Condor-Farrell</cite></p>
         <br>
         <br>
